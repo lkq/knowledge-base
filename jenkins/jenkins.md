@@ -14,7 +14,6 @@ Description=Jenkins
 After=network.target
 
 [Service]
-Type=forking
 LimitNOFILE=65536
 ExecStart=java -jar /home/<user name>/jenkins.war
 User=<user name>
