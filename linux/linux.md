@@ -27,6 +27,13 @@ join wifi
 ```
 sudo sh -c "wpa_passphrase <WIFI Name> >> /etc/wpa_supplicant/wpa_supplicant.conf"
 ```
+
+restart network interface
+```
+ifdown wlan0
+ifup wlan0
+```
+
 edit sudo
 ```
 sudo visudo
