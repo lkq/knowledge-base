@@ -23,6 +23,10 @@ static domain_name_servers=192.168.1.1 8.8.8.8
 ```
 
 ## Useful Commands
+join wifi
+```
+sudo sh -c "wpa_passphrase <WIFI Name> >> /etc/wpa_supplicant/wpa_supplicant.conf"
+```
 edit sudo
 ```
 sudo visudo
