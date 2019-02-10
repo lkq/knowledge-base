@@ -1,5 +1,3 @@
-# Linux Shell Script Cheat Sheet
-
 ## <strong>IF</strong>
 * File Exists / Not Exists
 ```

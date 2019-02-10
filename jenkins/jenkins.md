@@ -1,5 +1,3 @@
-# Jenkins Cheat Sheet
-
 ## Default Admin Password
 ```
 cat ~/.jenkins/secrets/initialAdminPassword

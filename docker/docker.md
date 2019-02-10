@@ -1,4 +1,3 @@
-# Docker Cheat Sheet
 ## Install
 ```
 curl -sSL https://get.Docker.com/ | bash -x 
