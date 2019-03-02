@@ -23,24 +23,36 @@ static domain_name_servers=192.168.1.1 8.8.8.8
 ```
 
 ## Useful Commands
-join wifi
+
 ```
+# join wifi
 sudo sh -c "wpa_passphrase <WIFI Name> >> /etc/wpa_supplicant/wpa_supplicant.conf"
 ```
 
-restart network interface
 ```
+# restart network interface
 ifdown wlan0
 ifup wlan0
 ```
 
-edit sudo
 ```
+# edit sudo permission
 sudo visudo
 ```
 
-systemd
-
+```
+# systemd
 systemctl daemon-reload
 systemctl enable service-name
 systemctl start service-name
+```
+
+```
+# lis processes, order by memory usage
+top -o %MEM
+```
+
+```
+# install dnsutils - nslookup/dig (debian)
+sudo apt-get install dnsutils
+```
