@@ -3,6 +3,12 @@
 cat ~/.jenkins/secrets/initialAdminPassword
 ```
 
+## Config Git
+```
+# push to current branch by default
+git config --global push.default current
+```
+
 ## Run as Service
 
 create jenkins.service under /etc/systemd/system/ with below content:
